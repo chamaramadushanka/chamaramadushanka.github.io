@@ -53,12 +53,12 @@
 }
 .main h1{
     color: #ff6600;
-    font-size: 3rem;
+    font-size: 3.15rem;
     letter-spacing: 0.2rem;
 }
 .main p{
     color: #fff;
-    font-size: rem;
+    font-size: 1.5rem;
 }
 .Products h1{
     display: blok;
@@ -86,7 +86,6 @@
     margin-bottom: 8px;
 }
 .section{
-    
     height: 700px;
     background: url(../img/banner2.png) repeat center fixed;
     -webkit-background-size:cover;
@@ -109,25 +108,41 @@
     text-align: center;
     color:#f39150!important;
     padding-bottom: 10px;
-    
 }
+
+@media screen and (max-width: 480px) {
+    #prod {
+        text-align: center;
+    }
+}
+
 
 .backcolorservices{
     background: rgba(0, 0, 0, 0.8);
     background-size: cover;
     height:700px;
     width: 100%;
+    
+}
+@media screen and (max-width: 480px) {
+    .backcolorservices {
+    text-align: justify;
     overflow: scroll;
     overflow-x: hidden; /* Hide horizontal scrollbar */
     overflow-y: scroll;
-    
+    }
+}
+@media screen and (max-width: 480px) {
+    .backcolorservices h3{
+    text-align: center;
+    }
 }
 .col-md-6{
     color: #fff;
     font-size: 18px;
 }
 
-.icoimg{
+.icoimg{  
     text-align: center;
     align-items: center;
     display: flex;
@@ -139,7 +154,6 @@
     
 }
 
-
 .icoimg:hover{
     text-align: center;
     display: flex;
@@ -148,10 +162,9 @@
     -webkit-transform: scale(1.15);
     transform: scale(1.15); 
     transition: all .3s ease;
-    
 }
 .col-sm-8 h3{
-    color:#f39150;
+    color:#ff6600;
 }
 .headeraboutus h1{
     font-size: 40px;
@@ -166,7 +179,6 @@
 }
 .headeraboutus h2{
     color: rgb(95, 95, 95);
-    
 }
 .teamcontent{
     text-align: center !important;
@@ -182,47 +194,25 @@
     color: rgb(124, 124, 124);
     margin-bottom: 15px;
 }
-
 .footer{
+    background-color: #272727;
+    
+}
+.footer p{
+    color: #fff !important;
+    margin-bottom: 5px !important;
+}
+.text-uppercase{
     color: #fff;
-    height: 200px;
-    background-color: #282828;
-    
 }
-.footerrow{
-    padding: 20px;
-}
-.Socialmedia ul li{
-    display: block;
-    float: left;
-    font-size: 25px;
-    padding: 5 5 5 5;
-    margin: 0 5 0 0;
-    border: 1px solid #ff6600;   
-}
-.col-sm-3{
-    padding: 0 40 0 40;
-}
-.Socialmedia ul li i{
-color: #ff6600 !important;
-}
-.Socialmedia ul{
-    padding: 0;
-}
-.links i{
-    color: #5c5c5c !important;
-}
-.links a{
-    color: #ff6600 !important;
-}
-.footeremail{
-    background-color: #282828;
-}
-.form input{
-   padding: 5px;
-   color: rgb(199, 199, 199);
-    background-color: #5c5c5c;
-    
+.fa-mobile {
+    font-size: 20px;
 }
 
+.footer-copyright{
+    padding-top: 10px;
+    background-color: #141414;
+    height: 50px;
+    color: #fff;
+}
 
