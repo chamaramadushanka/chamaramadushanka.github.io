@@ -1,0 +1,243 @@
+/*
+Color red:e76033;
+color black:202020;
+*/
+*{
+    margin: 0%;
+    padding:0%;
+   
+}
+.navbar {
+    background-color: #202020;
+}
+.nav-link{
+    color: #fff !important;
+}
+.navbar-brand{
+    color: #fff !important;
+}
+.fa-bars{
+    color: #fff;
+}
+.navbar-brand{
+    padding-top: 10px;
+}
+.navbar-brand img{
+    margin-bottom: 7px;
+    margin-right: 10px;
+}
+.hovcolor li a:active {
+    color: #e76033 !important;
+  }
+
+.hovcolor li a:hover{
+    color: e76033 !important;
+}
+.brandfont h5{
+    font-weight: 300;
+}
+.navbar .fa {
+    color: #fff !important;
+    padding: 0 5px;
+}
+.main{
+    background-image: url("../img/background.jpg");
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+.bysection{
+      padding-top: 120px;
+      color: #fff;
+      
+  }
+ .main-header-text h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     
+     font-size: 50px;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+ }
+
+.main-header-text h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: e76033;
+    font-weight: lighter;
+}
+.hireme a {
+    background: #3f3f3f;
+    box-shadow: 1px 6px 9px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 10px 40px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 768px) {
+    main-header-text{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+.demo a {
+    position: absolute;
+    bottom: px;
+    left: 47%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+  }
+  .demo a:hover {
+    opacity: .5;
+  }
+  
+#section07 a {
+    padding-top: 80px;
+  }
+  #section07 a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb07 2s infinite;
+    animation: sdb07 2s infinite;
+    opacity: 0;
+    box-sizing: border-box;
+  }
+  #section07 a span:nth-of-type(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+  #section07 a span:nth-of-type(2) {
+    top: 16px;
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s;
+  }
+  #section07 a span:nth-of-type(3) {
+    top: 32px;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+  }
+  @-webkit-keyframes sdb07 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes sdb07 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+.Aboutme{
+    padding: 100 0 100 0;
+    height: 600px;
+}
+.Donwloadcv a{
+    background: #000000;
+    box-shadow: 1px 6px 9px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 10px 40px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+.abtme{
+    text-align: left;
+}
+.abtme h3{
+    color: #e76033;
+}
+.dwncv .Donwloadcv{
+    display: inline;
+}
+.webdevbanner img{
+    padding-top: 10px;
+}
+
+
+.socialmid{
+    padding-left: 30px;
+   margin-top: 350px;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    align-items: center;
+   border: #e76033 1px solid;
+}
+
+.webdevbanner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.socialmid .fa{
+    color: #e76033;
+    font-size:30px;
+    text-align: center;
+    margin: 10 15 10 15;
+    overflow: hidden;
+}
+.details{
+    display: flex;
+}
+.tw-ic{
+    display: flex;
+}
+.tw-ic p{
+ padding: 0 30 5 10;  
+}
+
+.tw-ic .fa{
+    padding-top: 3px;
+    font-size: 20px;
+}
+.Skillspack{
+    height: 700px;
+    background: url(../img/banner2.png) repeat center fixed;
+    -webkit-background-size:cover;
+    background-size: cover;
+    margin-bottom: 5%;
+}
