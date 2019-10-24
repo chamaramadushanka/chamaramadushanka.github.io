@@ -345,6 +345,14 @@ body{
 }
 .pos{
   height: 400px;
+  transition: transform .2s;
+  border-radius: 5px;
+}
+.pos:hover{
+  transform: scale(1.1); 
+  background-color: #e76033;
+  z-index: 1000;
+  box-shadow: #e76033;
 }
 .pos h2{
   padding-top: 20px;
@@ -352,18 +360,18 @@ body{
   font-weight: 0;
 }
 .pos1{
-  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)) fixed, url(../img/web1.jpg)  no-repeat;
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)) fixed, url(../img/web1.jpg)  no-repeat;
 }
 
 .pos2{
-  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)) fixed, url(../img/web2.jpg)  no-repeat;
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)) fixed, url(../img/web2.jpg)  no-repeat;
 
 }
 .pos3{
-  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)) fixed, url(../img/web3.jpg);
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)) fixed, url(../img/web3.jpg);
 }
 .pos4{
-  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)) fixed, url(../img/web4.jpg);
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)) fixed, url(../img/web4.jpg);
 }
 
 .serimg{
