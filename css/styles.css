@@ -2,6 +2,9 @@
 Color red:e76033;
 color black:202020;
 */
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0%;
   padding: 0%;
@@ -63,7 +66,9 @@ body{
   overflow: hidden;
   background-size: cover;
   background-position: center;
+
 }
+
 
 .banner {
   width: 100%;
@@ -205,6 +210,10 @@ body{
     opacity: 0;
   }
 }
+.abtmesection{
+  background-color:#e4e4e4;
+  padding-bottom: 10px;
+}
 .About-me{
   padding-top: 100px;
 }
@@ -217,23 +226,37 @@ body{
   align-items: center;
 }
 .abtme-bnr img{
-  width: 100%;
+  height: 460px;
+  
 }
 .socialmediaico{
   display:inline-block;
   color: #e76033;
   font-size: 30px;
-  padding: 10 15;
-  border: #e76033 1px solid;
   position: absolute;
-  top: 70%;
+  top: 75%;
 }
 
 .sm .fa {
+  width: auto;
+  margin: 5px;
   display:inline-block;
   color: #e76033;
   font-size: 30px;
-  padding: 10 15;
+  padding: 15 17;
+  border-radius: 200px;
+  border: #e76033 1px solid;
+}
+
+.sm .fa:hover{
+  transition: background-color 0.5s ease;
+  background-color: #e76033;
+  color: #e4e4e4;
+}
+.fa-facebook{
+  padding: 15 22 !important;
+  border-radius: 200px;
+  border: #e76033 1px solid;
 }
 @media only screen and (max-width: 768px) {
   .sm .fa{
@@ -252,8 +275,16 @@ body{
   display: inline-block;
   margin-top: 10px;
 }
+.abtmeds h1{
+  font-size: 4rem;
+}
+
 .abtmeds h3{
-  color: #e76033 !important;
+  color: #000000 !important;
+  font-size: 2rem;
+}
+.abtmeds p{
+  font-size: 1rem;
 }
 
 .Donwloadcv a {
@@ -277,23 +308,82 @@ body{
     margin-right: 0px;
   }
 }
-@media only screen and (max-width: 768px) {
-  .About-me {
-    margin-top: 20px;
-  }
-}
 .About-me{
   margin-bottom: 80px;
 }
 .abtme-bnr img{
   border-radius: 5px;
 }
-.bgskills {
-  background-image: url(../img/bannner2.jpg);
-  background-image: url(../img/banner2.jpg);
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+.sh-section {
+  position: relative;
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: #fff;
+}
+.services{
+  text-align: center;
+  background-color: #202020;
+  color: #fff;
+  padding-bottom: 80px;
+}
+.services-header{
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.services-header h1 {
+  font-size: 4rem;
+  padding-bottom: 10px;
+}
+.services-header h5 {
+  display: inline-block;
+  max-width: 800px;
+  font-size: 1.5rem;
+  font-weight: 20;
+  padding-bottom: 10px;
+  color: #ff5e00 !important;
+}
+.pos{
+  height: 400px;
+}
+.pos h2{
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 0;
+}
+.pos1{
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)) fixed, url(../img/web1.jpg)  no-repeat;
+}
+
+.pos2{
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)) fixed, url(../img/web2.jpg)  no-repeat;
+
+}
+.pos3{
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)) fixed, url(../img/web3.jpg);
+}
+.pos4{
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)) fixed, url(../img/web4.jpg);
+}
+
+.serimg{
+  margin-top: 20%;
+}
+.serimg .fa{
+  font-size: 35px;
+  color: #e76033;
+}
+.serimg p{
+  margin-top: 40px;
+}
+
+
+/* Portfolio */
+
+.Portfolio{
+  text-align: center;
+  background-color: #6b6b6b;
+}
+.Portfolio h5{
+  color: #ffffff !important;
 }
