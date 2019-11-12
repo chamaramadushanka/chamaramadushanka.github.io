@@ -66,10 +66,17 @@ body{
   overflow: hidden;
   background-size: cover;
   background-position: center;
-
 }
-
-
+@media only screen and (max-width: 768px) {
+  .main {
+    background-image: url("../img/background1.jpg");
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+  }
+}
 .banner {
   width: 100%;
   height: 100%;
@@ -226,9 +233,7 @@ body{
   align-items: center;
 }
 .abtme-bnr img{
-  width: 100vh;
-  
-  
+  width: 100%;
 }
 .socialmediaico{
   display:inline-block;
@@ -245,7 +250,7 @@ body{
   color: #e76033;
   font-size: 30px;
   padding: 15 17;
-  border-radius: 200px;
+  border-radius: 500px;
   border: #e76033 1px solid;
 }
 
@@ -261,9 +266,15 @@ body{
 }
 @media only screen and (max-width: 768px) {
   .sm .fa{
-    font-size: 20px;
-    padding:5px 5px;
+    font-size: 25px;
+    padding:10px 10px;
   }
+  .fa-facebook{
+    padding:  10px 15px!important;
+    border-radius: 200px;
+    border: #e76033 1px solid;
+  }
+  
 }
 @media only screen and (max-width: 768px) {
   .socialmediaico{
@@ -286,6 +297,8 @@ body{
 }
 .abtmeds p{
   font-size: 1rem;
+  padding-right: 40px;
+  text-align: justify;
 }
 
 .Donwloadcv a {
@@ -293,7 +306,6 @@ body{
   -webkit-box-shadow: 1px 6px 9px rgba(0, 0, 0, 0.1);
           box-shadow: 1px 6px 9px rgba(0, 0, 0, 0.1);
   color: #fff;
-  margin-right: 20px;
   margin-top: 20px;
   padding: 10px 40px;
   text-decoration: none !important;
@@ -302,6 +314,11 @@ body{
 @media only screen and (max-width: 768px) {
   .abtmeds{
     text-align: center;
+  }
+  .abtmeds p{
+    font-size: 1rem;
+    padding-right: 0px;
+    text-align: justify;
   }
 }
 
@@ -356,7 +373,7 @@ body{
   height: 400px;
   transition: transform .2s;
   border-radius: 5px;
-  width: 100%;
+  
 }
 .pos:hover{
   transform: scale(1.1); 
@@ -371,7 +388,6 @@ body{
 }
 .pos1{
   background: linear-gradient(-45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)) fixed, url(../img/web1.jpg)  no-repeat;
-  width: 100%;
 }
 
 .pos2{
@@ -379,10 +395,10 @@ body{
 
 }
 .pos3{
-  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)) fixed, url(../img/web3.jpg);
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)) fixed, url(../img/web3.jpg)no-repeat;
 }
 .pos4{
-  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)) fixed, url(../img/web4.jpg);
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)) fixed, url(../img/web4.jpg)no-repeat;
 }
 
 .serimg{
@@ -1469,4 +1485,10 @@ footer .credits a {
 
 .more-info{
   color: #fff;
+}
+.credits p{
+  color: #a5a5a5;
+}
+.credits a{
+  color: #ff5e00 !important;
 }
