@@ -228,7 +228,6 @@ body {
 
 .abtmesection {
   background-color: #e4e4e4;
-  padding-bottom: 10px;
 }
 
 .About-me {
@@ -324,7 +323,7 @@ body {
 
 .abtmeds p {
   font-size: 1rem;
-  padding-right: 40px;
+  padding-right: 10px;
   text-align: justify;
 }
 
@@ -596,7 +595,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #ffffff;
+  background-color: #808080;
   margin: 0 auto;
 }
 
