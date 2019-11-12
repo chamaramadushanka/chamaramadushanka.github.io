@@ -242,7 +242,7 @@ body {
 }
 
 .abtme-bnr img {
-  height: 460px;
+  width: 100vh;
 }
 
 .socialmediaico {
@@ -328,14 +328,17 @@ body {
   }
 }
 
+.About-me {
+  margin-bottom: 80px;
+}
+
 @media only screen and (max-width: 768px) {
   .Donwloadcv a {
     margin-right: 0px;
   }
-}
-
-.About-me {
-  margin-bottom: 80px;
+  .About-me {
+    margin-bottom: 0px;
+  }
 }
 
 .abtme-bnr img {
@@ -387,6 +390,7 @@ body {
   transition: transform .2s;
   transition: transform .2s, -webkit-transform .2s;
   border-radius: 5px;
+  width: 100%;
 }
 
 .pos:hover {
@@ -406,6 +410,7 @@ body {
 
 .pos1 {
   background: linear-gradient(-45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)) fixed, url(../img/web1.jpg) no-repeat;
+  width: 100%;
 }
 
 .pos2 {
@@ -571,7 +576,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #ffffff;
   margin: 0 auto;
 }
 
@@ -1110,6 +1115,55 @@ a:hover {
 .skill-mf .progress .progress-bar {
   height: .7rem;
   background-color: #0078ff;
+}
+
+.ProgrammingExpertise {
+  text-align: center;
+  background-color: #e76033;
+  padding: 50 0;
+}
+
+.logoband row {
+  margin: 0px;
+}
+
+.logoband {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.programlogos i {
+  height: auto;
+  font-size: 50px;
+}
+
+.programlogos i:hover {
+  height: auto;
+  font-size: 55px;
+}
+
+@media (min-width: 768px) {
+  .ProgrammingExpertise {
+    text-align: center;
+    background-color: #e76033;
+    padding: 30 0;
+  }
+  .programlogos i:hover {
+    transition: transform .2s, -webkit-transform .2s;
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+  }
 }
 
 /*======================================

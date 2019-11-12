@@ -226,7 +226,8 @@ body{
   align-items: center;
 }
 .abtme-bnr img{
-  height: 460px;
+  width: 100vh;
+  
   
 }
 .socialmediaico{
@@ -303,13 +304,17 @@ body{
     text-align: center;
   }
 }
+
+.About-me{
+  margin-bottom: 80px;
+}
 @media only screen and (max-width: 768px) {
   .Donwloadcv a {
     margin-right: 0px;
   }
-}
-.About-me{
-  margin-bottom: 80px;
+  .About-me{
+    margin-bottom: 0px;
+  }
 }
 .abtme-bnr img{
   border-radius: 5px;
@@ -351,6 +356,7 @@ body{
   height: 400px;
   transition: transform .2s;
   border-radius: 5px;
+  width: 100%;
 }
 .pos:hover{
   transform: scale(1.1); 
@@ -365,6 +371,7 @@ body{
 }
 .pos1{
   background: linear-gradient(-45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)) fixed, url(../img/web1.jpg)  no-repeat;
+  width: 100%;
 }
 
 .pos2{
@@ -527,7 +534,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #ffffff;
   margin: 0 auto;
 }
 
@@ -1068,6 +1075,40 @@ a:hover {
   background-color: #0078ff;
 }
 
+.ProgrammingExpertise {
+  text-align: center;
+  background-color: #e76033;
+  padding: 50 0;
+}
+.logoband row{
+  margin: 0px;
+}
+.logoband{
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+  align-items: center;
+}
+
+.programlogos i{
+  height: auto;
+  font-size: 50px;
+}
+.programlogos i:hover{
+  height: auto;
+  font-size: 55px;
+}
+@media (min-width: 768px) {
+  .ProgrammingExpertise {
+    text-align: center;
+    background-color: #e76033;
+    padding: 30 0;
+  }
+  .programlogos i:hover{
+    transition: transform .2s, -webkit-transform .2s;
+    transition: all 100ms ease;
+  }
+  }
 /*======================================
 //--//-->   SERVICES
 ======================================*/
